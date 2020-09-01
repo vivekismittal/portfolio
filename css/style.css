@@ -1,0 +1,36 @@
+@import 'utility.css';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+header{
+    background-color: #8cd8df;
+    height:100px;
+}
+.container{
+    max-width:1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+header nav .left a {
+    color: var(--cornsilk);
+    text-decoration:none;
+    margin-right:2rem;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: #78e9cd;
+
+}
+header nav{
+    padding:2rem 0;
+}
+header nav .logo{
+    margin-right:3rem;
+
+}
