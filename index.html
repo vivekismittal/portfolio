@@ -5,20 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my first portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fpnts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+     <!-- Start Loader -->
+     <div class="section-loader">
+        <div class="loader">
+            <div></div>
+            <div></div> 
+        </div>
+    </div>
+    <!-- End Loader -->
+    <!--
+        ===================
+           NAVIGATION
+        ===================
+        -->
     <header>
         <div class="container">
             <nav class="flex item-center justify-between">
                 <div class="left flex item-center ">
                     <div class="logo">
-                        <img src="images/logo.jpg" alt="">
+                        <img src="images/logo.jpg" alt="" height="60">
                     </div>
                     <div>
-                        <a href="#">HOME</a>
-                        <a href="#">ABOUT</a>
-                        <a href="#">EDUCATION</a>
+                        <a href="#home">HOME</a>
+                        <a href="#about">ABOUT</a>
+                        <a href="#education">EDUCATION</a>
                         <a href="#">SKILLS</a>
                         <a href="#">EXPERIENCE</a>
                     </div>
@@ -28,9 +43,64 @@
                     <button class="btn btn-primary">CONTACT</button>
                 </div>
             </nav>
+            <div class="front-image flex item-center justify-between" id="home">
+                <div class="left">
+                    <img src="images/sticker.jpg" alt="" height="350">
+                </div>
+                <div class="right">
+                    <h6>Hello I'm</h6>
+                    <h3>vivek mittal</h3>
+                    <h1>A creative <span>learner</span></h1>
+                    <p>eliilhjrrbhhbvehffwu wieiefhwue weehf fwehew hwuefh efh iufhw weeufh wewf </p>
+                    <ul class="s">
+                        <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><a href="mailto:"><i class="fa fa-envelope"></i></a>mittalvivek700@gmail.com</li>
+                        <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><a href="callto:"><i class="fa fa-phone"></i></a>+91 827 392 8231</li>
+                        <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><a href=""><i class="fa fa-map-marker"></i></a><address>1225/a arya nagar, kosi kalan(Mathura), Uttar pradesh, India</address></li>
+                    </ul>
+                    
+                    <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa fa-github"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
-
-    
+    <section class="about" id="about">
+        <div class="container flex justify-between">
+            <div class="left">
+                <h3>ABOUT <span>ME</span></h3>
+                <p>uhb hhsdbcw jwbw wbh wjhbw whbhwjwb cwjbw jwjb </p>
+                <div class="languages flex justify-between">
+                    <button class="btn btn-sec">C</button>
+                    <button class="btn btn-sec">C++</button>
+                    <button class="btn btn-sec">python</button>
+                    <button class="btn btn-sec">java</button>
+                    <button class="btn btn-sec">HTML</button>
+                    <button class="btn btn-sec">CSS</button>
+                </div>
+            </div>
+            <div class="right">
+                <img src="images/ab-img.png" height="400">
+            </div>
+    </div>
+    </section>
+    <div class="education flex justify-between" id="education">
+        <div class="left">
+            <h2>HIGH SCHOOLING</h2>
+            <p>wuefuh iwuehfi iefhi iwuef gdfg fbey bf  u ehfw uwgefej ferf rf3 3fr rff3 3f3 f3f3 rf3 rf3r f3rf 3rf 3rf3 f 3rf 3rf 3rf 3rfhfw uywgf weffwyefgw</p>
+        </div>
+        <div class="middle">
+            <h2>INTERMEDIATE</h2>
+            <p>bhfeh bf hfhfe fgh hfheh ebf ebhbfej ejjfje jf3 f43f 3rf3 frf3 rf3r f3r3rf 33 frrf3 f3r 3fr3 f4t2 5rf f45f ff 4f  5 f5 ff fbjde ejnjnjejebhbe hfe nhenf eu nfje fnnfje </p>
+        </div>
+        <div class="right">
+            <h2>UNDER GRADUATION</h2>
+            <p>furf  fhue h fue fbue f f f4 4 f4f4tr vr gvr vfr fvr fvrfvrf vr fvr fvrv rvr vr fvr fvr vf rf vreu  rh3 rrb h3ff frr frf ffbrf 4rf3 f3hf ef3  rv </p>
+        </div>
+    </div>
 </body>
 </html>

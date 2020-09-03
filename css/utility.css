@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 .btn{
-    padding: 0.8rem 3rem;
+    padding: 0.8rem 2rem;
     font-size:1rem;
     font-weight: 600;
     border:2px solid transparent ;
@@ -19,8 +19,22 @@
 .btn-primary{
     background: seagreen;
     color: rgb(255, 140, 8);
+    border-radius: 5px;
 }
 .btn-primary:hover{
     background: transparent;
     border-color:seagreen;
 }
+.btn-sec:hover{
+    background: #fffefe;
+    border-color: rgb(194, 218, 250);
+    transition: .6s ease;
+    box-shadow: none;
+}
+.btn-sec{
+    background: honeydew;
+    border-color: rgb(255, 255, 255);
+    cursor: auto;
+    border-radius: 5px;
+    box-shadow: 2px 5px 9px 5px lightgrey;
+    }
