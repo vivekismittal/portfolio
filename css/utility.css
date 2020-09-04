@@ -17,12 +17,14 @@
     transition: all.3s ease;
 }
 .btn-primary{
-    background: seagreen;
-    color: rgb(255, 140, 8);
+    background: whitesmoke;
+    color: rgb(139, 186, 224);
+    border-color: rgb(139, 186, 224) ;
     border-radius: 5px;
 }
 .btn-primary:hover{
-    background: transparent;
+    color: whitesmoke;
+    background: rgb(139, 186, 224);
     border-color:seagreen;
 }
 .btn-sec:hover{

@@ -24,7 +24,7 @@ header nav .left a {
     transition: all .3s ease;
 }
 header nav .left a:hover{
-    color: #78e9cd;
+    color: whitesmoke;
 
 }
 header nav{
@@ -149,6 +149,7 @@ section .left h3{
 }
 section .left p{
   color: #58615f;
+  padding: 30px;
   font-size: 18px;
   line-height: 30px;
 }
@@ -158,26 +159,74 @@ section .left h3 span{
 .education .left{
   padding: 60px;
   box-shadow: 2px 5px 9px 5px lightgrey;
-  flex-basis: 30%;
+  flex-basis: 25%;
   border-radius: 10px;
-  margin-left:2% ;
+  margin-left:4% ;
 }
 .education .middle{
   padding: 60px;
   box-shadow: 2px 5px 9px 5px lightgrey;
-  flex-basis: 30%;
+  flex-basis: 25%;
   border-radius: 10px;
 }
 .education .right{
   padding: 60px;
   box-shadow: 2px 5px 9px 5px lightgrey;
-  flex-basis: 30%;
+  flex-basis: 25%;
   border-radius: 10px;
-  margin-right: 2%;
+  margin-right: 4%;
+}
+.education .content{
+  font-family:'poppins',sans-serif
+}
+.education .content p{
+  color:  #58615f;
+  font-size: 18px;
+  line-height: 30px;
+
 }
 .education h2{
   font-size: 2rem;
-      color: gray;
+      color: rgb(78, 48, 48);
       line-height: 1.2;
       margin-bottom: 1.5rem;
 }
+.education h1{
+  font-size: 48px;
+  line-height: 55px;
+  text-align: center;
+  padding: 60px;
+  font-family: 'poppins',sans-serif;
+  color: #58615f;
+  font-weight: 520;
+}
+.skills{
+  padding: 100px;
+  flex-basis: 85%;
+  border-radius: 10px;
+}
+.skills .content{
+  padding: 30px;
+  box-shadow: 2px 5px 9px 5px lightgrey;
+  background-color: whitesmoke;
+}
+.skills .content h2{
+  font-size: 48px;
+  line-height: 55px;
+  color: darkgrey;
+}
+.skills .content pre{
+  font-size: 18px;
+  line-height: 30px;
+  color: darkslategray;
+  font-weight: 300;
+}
+@media(min-width:1200px){}
+@media screen and (max-width:990p){
+ .front-image, .education, header .left{
+    flex-direction: column;
+  }
+}
+@media(max-width:800px){}
+@media(max-width:600px){}
+@media(max-width:480px){}
