@@ -34,6 +34,9 @@ header nav .logo{
     margin-right:3rem;
 
 }
+header img{
+  border-radius: 50%;
+}
 .front-image .social-icon {
     display: inline-block;
   }
@@ -138,6 +141,9 @@ header nav .logo{
       color: darkblue;
       margin-bottom: 2rem;
   }
+  .front-image img{
+    border-radius: 50px;
+  }
   section {
     margin-top: 500px;
     font-family: 'Roboto',sans-serif;
@@ -156,27 +162,33 @@ section .left p{
 section .left h3 span{
   color: rgb(166, 187, 133);
 }
+section img{
+  width: 70vw;
+}
+.languages{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
 .education .left{
   padding: 60px;
   box-shadow: 2px 5px 9px 5px lightgrey;
-  flex-basis: 25%;
   border-radius: 10px;
-  margin-left:4% ;
+  flex-basis: 30%;
 }
 .education .middle{
   padding: 60px;
   box-shadow: 2px 5px 9px 5px lightgrey;
-  flex-basis: 25%;
   border-radius: 10px;
+  flex-basis: 30%;
 }
 .education .right{
   padding: 60px;
   box-shadow: 2px 5px 9px 5px lightgrey;
-  flex-basis: 25%;
   border-radius: 10px;
-  margin-right: 4%;
+  flex-basis: 30%;
 }
 .education .content{
+  
   font-family:'poppins',sans-serif
 }
 .education .content p{
@@ -211,22 +223,44 @@ section .left h3 span{
   background-color: whitesmoke;
 }
 .skills .content h2{
-  font-size: 48px;
+  font-size: 30px;
   line-height: 55px;
   color: darkgrey;
 }
-.skills .content pre{
+.skills .content p{
   font-size: 18px;
   line-height: 30px;
   color: darkslategray;
   font-weight: 300;
-}
-@media(min-width:1200px){}
-@media screen and (max-width:990p){
- .front-image, .education, header .left{
-    flex-direction: column;
+}@media screen and (min-width:990px) and (max-width:1200px){
+  section img{
+    width: 30vw;
   }
 }
-@media(max-width:800px){}
-@media(max-width:600px){}
-@media(max-width:480px){}
+@media screen and (max-width:990px){
+ .skills .content, .about .container,.front-image, .education .content, header .left{
+    flex-direction: column;
+  }
+  .skills h2{
+    font-size: 20px;
+  }
+ .about{
+   margin-top: 125vh;
+ }
+}
+@media(max-width:600px){
+  .about{
+    margin-top: 120vh;
+  }
+  .skills .content{
+    padding: 15px;
+  }
+  .skills{
+    padding: 30px;
+  }
+}
+@media(max-width:480px){
+  .about{
+    margin-top: 115vh;
+  }
+}
