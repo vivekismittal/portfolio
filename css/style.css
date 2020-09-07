@@ -1,5 +1,6 @@
 @import 'utility.css';
 *{
+    scroll-behaviour:smooth;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
